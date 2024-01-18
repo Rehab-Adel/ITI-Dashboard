@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITI</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="crud">
+        <!--Header-->
+        <div class="head">
+            <h1>Students Management System</h1>
+            <p></p>
+        </div>
+
+        <!--Inputs-->
+        <div class="inputs">
+            <input placeholder="Enter student's name" type="text" id="Name">
+            <input placeholder="Enter student's email" type="email" id="email">
+            <input placeholder="Enter student's password" type="password" id="password">
+            <input placeholder="Enter student's address" type="text" id="address">
+            <input placeholder="Enter student's track" type="text" id="track">
+            <input placeholder="Enter student's enrollment date" type="date" id="enrollment">
+            <button id="submit">Create</button>
+        </div>
+
+        <!--Outpus-->
+        <div class="outputs">
+            <div class="SEARCHBlock">
+                <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="Search">
+                <div class="btnSearch">
+                    <button onclick="getSearchMood(this.id)" id="searchName">Search for student</button>
+                </div>
+            </div>
+
+            <!--delete all-->
+            <div id="deleteAll">
+
+            </div>
+            <table>
+                <tr>
+                    <th>name</th>
+                    <th>email</th>
+                    <th>password</th>
+                    <th>address</th>
+                    <th>Track</th>
+                    <th>enrollment date</th>
+                    <th>Update</th>
+                    <th>delete</th>
+                </tr>
+                <tbody id="tbody">
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

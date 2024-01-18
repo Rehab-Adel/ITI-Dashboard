@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("../assets/iti_background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.crud {
+  width: 50%;
+  margin: auto;
+}
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+  color: #39566d;
+}
+h1 {
+  margin: 10px 0;
+}
+input {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: #f4f4f6;
+  color: #39566d;
+  margin: 4px 0;
+  border-radius: 8px;
+  padding: 7px;
+}
+input:focus {
+  background: #fff;
+  color: #39566d;
+  border: #39566d solid 1px;
+}
+button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background: #39566d;
+  border-radius: 20px;
+  color: #fff;
+  transform: 0.7s;
+  text-transform: capitalize;
+}
+button:hover {
+  background: #fff;
+  color: #39566d;
+  border: #39566d 1px solid;
+  letter-spacing: 1px;
+}
+.SEARCHBlock
+{
+    margin-top: 10px;
+}
+table
+{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    background-color: #f9fcff;
+    border-radius: 6px;
+}
+table th
+{
+    text-transform: uppercase;
+    color: #39566d;
+    
+}
+th, td{
+    padding: 5px;
+    color: #263a49;
+}
+#delete
+{
+    background-color: #ff0000;
+}
+#delete:hover
+{
+    border: #ff0000 1px solid;
+    color: #fff;
+}
+#update
+{
+    background-color: #03a603;
+}
+#update:hover
+{
+    border: #03a603 1px solid;
+    color: #fff;
+    background-color: #03a603;
+}
+#deleteAll
+{
+    margin: 20px 0;
+}
